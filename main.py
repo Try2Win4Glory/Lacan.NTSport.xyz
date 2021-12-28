@@ -7,9 +7,9 @@ app = Flask(__name__)
 def home(): 
   return render_template('index.html')
 
-@app.route('/lacanhome')
-def lnshome():
-  return render_template('lacanhome.html')
+@app.route('/commands')
+def commands():
+  return render_template('commands.html')
   
 app.run(host='0.0.0.0')
 
