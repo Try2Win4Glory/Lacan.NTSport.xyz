@@ -10,10 +10,6 @@ def home():
 @app.route('/lacanhome')
 def lnshome():
   return render_template('lacanhome.html')
-
-@app.route('/lacanhome2')
-def lnshome2():
-  return render_template('lacanhome2.html')
   
 app.run(host='0.0.0.0')
 
